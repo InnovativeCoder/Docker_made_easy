@@ -35,3 +35,22 @@
 ```
 ## To build your own image 
 
+Make a dockerfile in your repository for which you want to make the image.
+Open the docker file and write following into it :
+```
+FROM python:3.6
+
+EXPOSE 8000
+
+#install dependencies
+COPY requirements.txt requirements.txt
+
+RUN pip install -r requirements.txt
+
+#Run the code
+
+CMD ["python3 <filename>"]
+```
+*instead of filename write the name of file you want to compile*
+***above code can be edited on the basis of the language chosen***
+
