@@ -1,5 +1,5 @@
 # Docker_made_easy
- My experience of learning docker.
+My experience of learning docker. I have listed all the commands which I encountered and are useful in real life while using docker, other commands can be accesed using docker --help.
 ## Step by step guide
 1. Download docker setup on your OS.
 
@@ -54,3 +54,7 @@ CMD ["python3 <filename>"]
 *instead of filename write the name of file you want to compile*
 ***above code can be edited on the basis of the language chosen***
 
+Pulling an Image from Dockerhub say for example [jcdemo/flaskapp](https://hub.docker.com/r/jcdemo/flaskapp/){an image for flask}
+```
+ $ docker pull jcdemo/flaskapp
+```
