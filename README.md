@@ -54,7 +54,7 @@ CMD ["python3 <filename>"]
 *instead of filename write the name of file you want to compile*
 ***above code can be edited on the basis of the language chosen***
 
-Pulling an Image from Dockerhub say for example [jcdemo/flaskapp](https://hub.docker.com/r/jcdemo/flaskapp/){an image for flask}
+Pulling an Image from Dockerhub say for example [jcdemo/flaskapp](https://hub.docker.com/r/jcdemo/flaskapp/) {an image for flask}
 ```
  $ docker pull jcdemo/flaskapp
 ```
