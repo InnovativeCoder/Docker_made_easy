@@ -40,6 +40,8 @@ Open the docker file and write following into it :
 ```
 FROM python:3.6
 
+MIANTAINER Innovative Coder
+
 EXPOSE 8000
 
 #install dependencies
