@@ -66,4 +66,7 @@ And then build the image using
 ```
  $ docker pull jcdemo/flaskapp
 ```
+## References 
+Official documentation : https://docs.docker.com/compose/reference/
+
 ***Feel free to contribute!!***
