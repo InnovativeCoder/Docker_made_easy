@@ -33,6 +33,11 @@ My experience of learning docker. I have listed all the commands which I encount
 ```
   $ docker rmi <image_name>
 ```
+10. To force remove an image 
+```
+  $ docker rmi -f <image_name>
+```
+
 ## To build your own image 
 
 Make a dockerfile in your repository for which you want to make the image.
